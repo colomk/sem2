@@ -20,7 +20,7 @@ public:
     /**
      * @brief Конструктор точки
      */
-    Point(double x = 0, double y = 0);
+    Point(const double x = 0, const double y = 0);
 
     /**
      * @brief Получение координаты X
