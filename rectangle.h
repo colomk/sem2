@@ -12,6 +12,8 @@ private:
      */
     Point p1, p2, p3, p4;
 
+    double side1;
+    double side2;
     /**
      * @brief Проверка, образуют ли четыре точки прямоугольник
      */
@@ -22,7 +24,7 @@ private:
      * @param side1 - первая сторона
      * @param side2 - вторая сторона
      */
-    void getSides(double& side1, double& side2) const;
+    void getSides() const;
 
 public:
     /**
@@ -32,7 +34,7 @@ public:
      * @param p3 - третья вершина
      * @param p4 - четвертая вершина
      */
-    Rectangle(Point p1, Point p2, Point p3, Point p4);
+    Rectangle(const Point& p1, const Point& p2, const Point& p3, const Point& p4);
 
     /**
      * @brief Расчет площади прямоугольника
