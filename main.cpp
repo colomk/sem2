@@ -9,7 +9,7 @@
  * @param report - строка информации
  * @return считанное значение
  */
-double getValue(std::string report = "");
+double getValue(const std::string report = "");
 
 /**
  * @brief Точка входа в программу
